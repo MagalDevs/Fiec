@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: "source-sans-pro", sans-serif;
     font-weight: 400;
@@ -67,6 +70,7 @@ h1{
 main p{
     text-align: justify;
     text-indent: 2rem;
+    font-size: 1.2rem;
 }
 main h2{
     margin-top: 2rem;
@@ -102,6 +106,7 @@ main h2{
 .profi p{
     margin-top: 10px;
     padding: 0 20px;
+    font-size: 1rem;
 }
 .profi h3 a{
     padding-top: 16px;
