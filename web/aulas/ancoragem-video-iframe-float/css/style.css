@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: blueviolet;
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    top: fixed;
+    top: 0;
+    left: 0;  
+    z-index: 1;
+}
+header ul{
+    color: white;
+    margin-top: 0rem;
+}
+header ul li{
+    color: white;
+    display: inline-block;
+    top: 3rem;
+    padding: 3rem;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 3rem;
+}
+header ul li a:hover{
+    color: blueviolet;
+    background-color: white;
+    transition: 500ms;
+}
+main section{
+    min-height: 400px;
+    width: 80%;
+    margin-left: 10%
+}
+#home{
+    margin-top: 9rem;
+}
+#home div{
+    height: 300px;
+}
+#home div img{
+    width: 100%;
+    height: 300px;
+}
+#caption{
+    height: 12rem !important;
+    position: relative;
+    width: 24rem !important;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: -15rem;
+    padding: 1rem 2rem; 
+}
+#about img{
+    float: right;
+    width: 30%;
+    height: 20rem;
+}
+#about blockquote{
+    float: left;
+    width: 50%;
+    height: 20rem;
+}
