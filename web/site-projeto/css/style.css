@@ -23,15 +23,15 @@ header{
     background-color: #01224D;
     top: 0;
     left: 0;
-    height: 9.6rem;
+    height: 7.1rem;
     width: 100%;
     position: fixed;
     text-align: center;
     z-index: 100;
 }
 header img{
-    height: 5rem;
-    padding: 1%;
+    height: 3rem;
+    padding: 0.7%;
 }
 header nav{
     margin-top: 0.25%;
@@ -40,6 +40,7 @@ header nav{
     display: inline-block;
 }
 header nav a{
+    font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
     margin-right: 1rem;
@@ -56,7 +57,7 @@ header nav a:active{
     text-decoration: underline;
 }
 main{
-    margin-top: 11rem;
+    margin-top: 9rem;
     padding: 0 2rem;
 }
 h1{
