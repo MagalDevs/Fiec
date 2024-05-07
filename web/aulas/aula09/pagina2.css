@@ -1,0 +1,11 @@
+#girante {
+    background-color: green;
+    height: 20rem;
+    width: 20rem;
+    transition: transform 2s;
+}
+
+#girante:hover {
+    transform: rotate(360deg) scale(0.0,0.0);
+    transition: transform 2s;
+}
