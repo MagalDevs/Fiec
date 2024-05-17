@@ -1,35 +1,20 @@
-#cima{
-    width: 90%;
-    height: 4rem;
-    border: 0.250rem;
-    border-color: black;
-    border-style: solid;
-    margin: auto;
-}
-#meiada{
-    width: 300px;
-    margin: auto;
-}
-.meio{
-    width: 6.25rem;
-    height: 6.25rem;
-    border: 0.100rem;
-    border-color: black;
-    border-style: solid;
-    display: flex;
-    margin: 5px;
-    align-items: center;
-}
-.linha{
-    display: flex;
-    flex-direction: row;
+span {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 50%;
+    height: 50px;
     
 }
-#limpar{
-    width: 50%;
-    height: 6.25rem;
-    border: 0.250rem;
-    border-color: black;
-    border-style: solid;
-    margin: auto;
+
+@keyframes myAnim {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
 }
