@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <button onclick="facaAlgo('açúcar')" >Mostra Alerta</button>
+    <div id="minhadiv">
+       Minha Div 
+    </div>
+    
+    <br>
+    <br>
+    <p class="paragrafoclass">Paragrafo</p>
+    <br>
+    <br>
+    <span id="meuspan"> Meu Span </span>
+    <br>
+    <br>
+    <button onclick="mudaCssDoSpan()" >Muda Css</button>
+
+
+    <br>
+    <br>
+    <form >
+        <label for="nomeId">Nome</label>
+        <input id="nomeId" type="text" placeholder="Coloque seu nome" />
+        <br />
+        <input id="emailId" type="email" placeholder="Coloque seu email" />
+        <br />
+        
+        <br />
+        
+    </form>
+    <button onclick="mostraInfo" id="mostraInfo" >Mostra Info</button>
+
+    <div id="resposta">
+<!-- Vai colocar aqui na resposta os valores dos campos email e nome -->
+    </div>
+
+    
+   
+</main>
+    <script>
+        //console.log("Ola")
+        //window.alert("Aqui é uma alertinha")
+
+        document.getElementById("mostraInfo").addEventListener('click', function(e){
+            e = e || window.event;
+            e.preventDefault();
+            const email = document.getElementById("emailId").value;
+            const nome = document.getElementById("nomeId").value;
+            console.log(email, nome)
+            document.getElementById("resposta").innerHTML = email + ", " + nome;
+        })
+
+        function mostraInfo(e){
+            e = e || window.event;
+            e.preventDefault();
+            const email = document.getElementById("emailId").value;
+            const nome = document.getElementById("nomeId").value;
+            console.log(email, nome)
+            document.getElementById("resposta").innerHTML = email + " " + nome;
+        }
+
+        function facaAlgo(parametro){
+            window.alert("Essa aula eh mamao com " + parametro)
+        }
+
+        function mudaCssDoSpan(){
+            document.getElementById("meuspan").style.backgroundColor = "red"
+            document.getElementById("meuspan").style.animation = "myAnim 2s ease 0s 1 normal forwards"
+        }
+
+    </script>
+</body>
+</html>

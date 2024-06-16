@@ -1,0 +1,13 @@
+#textos {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#imagem img {
+    width: 100%;
+    height: 30rem;
+   
+}
